@@ -137,7 +137,7 @@ export const projectsData = [
   {
     title: "Blackjack",
     description:
-      "The childgame poker game built in vanilla HTML, CSS, and Javascript.",
+      "The childhood poker game built in vanilla HTML, CSS, and Javascript.",
     tags: [
       "Javascript",
       "Bootstrap",
