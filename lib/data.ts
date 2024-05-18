@@ -93,6 +93,7 @@ export const projectsData = [
       "Git",
     ],
     imageUrl: colivingImg,
+    deployedUrl: "https://colivingryan.netlify.app/",
   },
   {
     title: "Fakebook",
@@ -113,6 +114,7 @@ export const projectsData = [
       "Git",
     ],
     imageUrl: fakebookImg,
+    deployedUrl: "https://fakebook-4bdfb.web.app/",
   },
   {
     title: "Quizzzz",
@@ -133,6 +135,7 @@ export const projectsData = [
       "Git",
     ],
     imageUrl: quizzzzImg,
+    deployedUrl: "https://ryanlerler.github.io/project1-quizzzz/",
   },
   {
     title: "Blackjack",
@@ -148,6 +151,7 @@ export const projectsData = [
       "Git",
     ],
     imageUrl: blackjackImg,
+    deployedUrl: "https://ryanlerler.github.io/blackjack/",
   },
 ] as const;
 
@@ -165,8 +169,6 @@ export const skillsData = [
   "Django",
   "Typescript",
   "Next.js",
-  "MySQL",
-  "Laravel",
   "Python",
   "Django",
   "Google Firebase",
