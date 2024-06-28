@@ -1,5 +1,6 @@
 import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
+import { LuGraduationCap } from "react-icons/lu";
 import colivingImg from "@/public/coliving.png";
 import fakebookImg from "@/public/fakebook.png";
 import quizzzzImg from "@/public/quizzzz.png";
@@ -30,16 +31,40 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Software Developer",
-    location: "Singapore",
+    title: "MSc in Artificial Intelligence Postgraduate Student",
+    location: "Asia Pacific University of Technology and Innovation",
     description:
-      "MNC experience in maintaining a large-scale goverment enterprise asset management system",
+      "Python, R, Artificial Intelligence, Applied Machine Learning, Natural Language Processing, Deep Learning, Pattern Recognition, Computational Intelligence Optimization, Image Processing and Computer Vision, Fuzzy Logic",
+    icon: React.createElement(LuGraduationCap),
+    date: "2024 - 2026",
+  },
+  {
+    title: "AI for Industry - Foundations in AI Learner",
+    location: "AI Singapore",
+    description:
+      "Python, Tensorflow, Keras, Scikit-learn, Numpy, Pandas, Matplotlib, SQL, Git",
+    icon: React.createElement(LuGraduationCap),
+    date: "2024",
+  },
+  {
+    title: "Software Developer",
+    location: "Bahwan Cybertek Pte Ltd, Singapore",
+    description:
+      "MNC experience in maintaining a large-scale goverment enterprise asset management system developed in .Net Framework and C#",
     icon: React.createElement(CgWorkAlt),
     date: "2023",
   },
   {
+    title: "Software Engineering Bootcamp Graduate",
+    location: "Rocket Academy, Singapore",
+    description:
+      "Full-stack software engineering in PERN (PostgreSQL, Express.js, React.js, Node.js) stack",
+    icon: React.createElement(LuGraduationCap),
+    date: "2023",
+  },
+  {
     title: "Technology Educator",
-    location: "Singapore",
+    location: "Roboto Coding Academy, Singapore",
     description:
       "Main trainer for coding and robotics lessons at Singapore local/ international schools and enrichment centres",
     icon: React.createElement(CgWorkAlt),
@@ -47,11 +72,19 @@ export const experiencesData = [
   },
   {
     title: "Senior Math Olympiad Coach/ Curriculum Developer",
-    location: "Singapore",
+    location: "SIMCC, Singapore",
     description:
       "Main trainer for Math Olympiad lessons for both local and overseas students",
     icon: React.createElement(CgWorkAlt),
     date: "2019 - 2022",
+  },
+  {
+    title: "Senior Singapore Math Program Instructor",
+    location: "Academy Teammathics, Malaysia",
+    description:
+      "Main trainer for Singapore Math and Math Olympiad lessons",
+    icon: React.createElement(CgWorkAlt),
+    date: "2017 - 2019",
   },
 ] as const;
 
