@@ -1,7 +1,5 @@
 import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
-import { FaReact } from "react-icons/fa";
-import { LuGraduationCap } from "react-icons/lu";
 import colivingImg from "@/public/coliving.png";
 import fakebookImg from "@/public/fakebook.png";
 import quizzzzImg from "@/public/quizzzz.png";
@@ -17,6 +15,10 @@ export const links = [
     hash: "#about",
   },
   {
+    name: "Experience",
+    hash: "#experience",
+  },
+  {
     name: "Projects",
     hash: "#projects",
   },
@@ -24,40 +26,32 @@ export const links = [
     name: "Skills",
     hash: "#skills",
   },
-  // {
-  //   name: "Experience",
-  //   hash: "#experience",
-  // },
-  // {
-  //   name: "Contact",
-  //   hash: "#contact",
-  // },
 ] as const;
 
 export const experiencesData = [
   {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
+    title: "Software Developer",
+    location: "Singapore",
     description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
-    icon: React.createElement(LuGraduationCap),
-    date: "2019",
-  },
-  {
-    title: "Front-End Developer",
-    location: "Orlando, FL",
-    description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
+      "MNC experience in maintaining a large-scale goverment enterprise asset management system",
     icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
+    date: "2023",
   },
   {
-    title: "Full-Stack Developer",
-    location: "Houston, TX",
+    title: "Technology Educator",
+    location: "Singapore",
     description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
-    icon: React.createElement(FaReact),
-    date: "2021 - present",
+      "Main trainer for coding and robotics lessons at Singapore local/ international schools and enrichment centres",
+    icon: React.createElement(CgWorkAlt),
+    date: "2022",
+  },
+  {
+    title: "Senior Math Olympiad Coach/ Curriculum Developer",
+    location: "Singapore",
+    description:
+      "Main trainer for Math Olympiad lessons for both local and overseas students",
+    icon: React.createElement(CgWorkAlt),
+    date: "2019 - 2022",
   },
 ] as const;
 
@@ -170,7 +164,6 @@ export const skillsData = [
   "Typescript",
   "Next.js",
   "Python",
-  "Django",
   "Google Firebase",
   "Google Maps API",
   "Google Places API",

@@ -18,18 +18,19 @@ export default function About() {
     >
       <SectionHeading>About me</SectionHeading>
       <p className="mb-3">
-        After graduating with a degree in{" "}
-        <span className="font-medium">Accounting</span>, I decided to pursue my
-        passion for programming. I enrolled in a coding bootcamp and learned{" "}
+        I am currently a{" "}
+        <span className="font-medium">MSc in Artificial Intelligence</span>{" "}
+        postgraduate student. My passion for programming sparked after I
+        enrolled in a software engineering bootcamp and learnt{" "}
         <span className="font-medium">full-stack web development</span>.{" "}
         <span className="italic">My favorite part of programming</span> is the
         problem-solving aspect. I <span className="underline">love</span> the
         feeling of finally figuring out a solution to a problem. My core stack
         is{" "}
         <span className="font-medium">
-          React, Node.js, Express.js, Django, and PostgreSQL
+          React.js, Node.js, Express.js, Python, and PostgreSQL
         </span>
-        . I am also familiar with TypeScript and Next.js. I am always looking to
+        . I am also familiar with TypeScript, Next.js, and Django. I am always looking to
         learn new technologies. I am currently looking for a{" "}
         <span className="font-medium">full-time position</span> as a software
         developer.

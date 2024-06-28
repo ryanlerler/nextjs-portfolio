@@ -6,7 +6,6 @@ import photo from "@/public/Photo.jpg";
 import { motion } from "framer-motion";
 import Link from "next/link";
 import { BsArrowRight, BsLinkedin } from "react-icons/bs";
-import { HiDownload } from "react-icons/hi";
 import { FaGithubSquare } from "react-icons/fa";
 import { useSectionInView } from "@/lib/hooks";
 
@@ -61,10 +60,11 @@ export default function Intro() {
         animate={{ opacity: 1, y: 0 }}
       >
         <span className="font-bold">Hello, I'm Ryan.</span> I'm a{" "}
-        <span className="font-bold">full-stack developer</span> with{" "}
+        <span className="font-bold">Software Developer</span> with{" "}
         <span className="font-bold">1 year</span> of experience. I enjoy
-        building <span className="italic">sites & apps</span>. My focus is{" "}
-        <span className="underline">Modern Web Development</span>.
+        building <span className="italic">sites & apps</span>. My current
+        focuses are <span className="underline">MSc in Artificial Intelligence</span>{" "}
+        and <span className="underline">Modern Web Development</span>.
       </motion.h1>
 
       <motion.div
@@ -80,15 +80,6 @@ export default function Intro() {
           Contact me here
           <BsArrowRight className="opacity-70 group-hover:translate-x-1 transition" />
         </Link>
-
-        {/* <a
-          href="/CV.pdf"
-          download
-          className="group bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10"
-        >
-          Download CV
-          <HiDownload className="opacity-60 group-hover:translate-y-1 transition" />
-        </a> */}
 
         <a
           href="https://www.linkedin.com/in/ryanler"
