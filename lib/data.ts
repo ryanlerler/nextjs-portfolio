@@ -5,6 +5,8 @@ import colivingImg from "@/public/coliving.png";
 import fakebookImg from "@/public/fakebook.png";
 import quizzzzImg from "@/public/quizzzz.png";
 import blackjackImg from "@/public/blackjack.png";
+import confusionmatrix from '@/public/confusionmatrix.png'
+import podcast from "@/public/podcast.png"
 
 export const links = [
   {
@@ -81,14 +83,45 @@ export const experiencesData = [
   {
     title: "Senior Singapore Math Program Instructor",
     location: "Academy Teammathics, Malaysia",
-    description:
-      "Main trainer for Singapore Math and Math Olympiad lessons",
+    description: "Main trainer for Singapore Math and Math Olympiad lessons",
     icon: React.createElement(CgWorkAlt),
     date: "2017 - 2019",
   },
 ] as const;
 
 export const projectsData = [
+  {
+    title: "IBM's Employee Attrition Prediction",
+    description:
+      "Logistics Regression model trained concluded that working overtime is the largest factor of attrition.",
+    tags: [
+      "Python",
+      "FastAPI",
+      "Spacy",
+      "FeedParser",
+      "Open AI API",
+      "Pycharm",
+      "Git",
+    ],
+    imageUrl: confusionmatrix,
+    deployedUrl: "https://github.com/ryanlerler/predicting-employee-attrition",
+  },
+  {
+    title: "NLP/ Prompt Engineering",
+    description:
+      "Extract numbers (in both integers and strings) and dates (including today and yesterday) out from a given paragraph.",
+    tags: [
+      "Python",
+      "FastAPI",
+      "Spacy",
+      "FeedParser",
+      "Open AI API",
+      "Pycharm",
+      "Git",
+    ],
+    imageUrl: podcast,
+    deployedUrl: "https://github.com/ryanlerler/nlp-prompt-engineering",
+  },
   {
     title: "Coliving",
     description:
