@@ -5,8 +5,8 @@ import colivingImg from "@/public/coliving.png";
 import fakebookImg from "@/public/fakebook.png";
 import quizzzzImg from "@/public/quizzzz.png";
 import blackjackImg from "@/public/blackjack.png";
-import confusionmatrix from '@/public/confusionmatrix.png'
-import podcast from "@/public/podcast.png"
+import confusionmatrix from "@/public/confusionmatrix.png";
+import podcast from "@/public/podcast.png";
 
 export const links = [
   {
@@ -96,10 +96,10 @@ export const projectsData = [
       "Logistics Regression model trained concluded that working overtime is the largest factor of attrition.",
     tags: [
       "Python",
-      "FastAPI",
-      "Spacy",
-      "FeedParser",
-      "Open AI API",
+      "Scikit-learn",
+      "Pandas",
+      "Seaborn",
+      "Matplotlib",
       "Pycharm",
       "Git",
     ],
