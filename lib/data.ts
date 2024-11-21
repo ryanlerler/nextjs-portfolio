@@ -41,12 +41,12 @@ export const experiencesData = [
     date: "2024 - 2026",
   },
   {
-    title: "AI for Industry - Foundations in AI Learner",
-    location: "AI Singapore",
+    title: "Software Developer",
+    location: "Emerson Asia Pacific Pte Ltd, Singapore",
     description:
-      "Python, Tensorflow, Keras, Scikit-learn, Numpy, Pandas, Matplotlib, SQL, Git",
-    icon: React.createElement(LuGraduationCap),
-    date: "2024",
+      "Fortune 500 US MNC experience in Life Sciences R&D for the groundbreaking One-Click Technology Transfer initiative",
+    icon: React.createElement(CgWorkAlt),
+    date: "2024 - Present",
   },
   {
     title: "Software Developer",
@@ -55,6 +55,14 @@ export const experiencesData = [
       "MNC experience in maintaining a large-scale goverment enterprise asset management system developed in .Net Framework and C#",
     icon: React.createElement(CgWorkAlt),
     date: "2023",
+  },
+  {
+    title: "AI for Industry - Foundations in AI Learner",
+    location: "AI Singapore",
+    description:
+      "Python, Tensorflow, Keras, Scikit-learn, Numpy, Pandas, Matplotlib, SQL, Git",
+    icon: React.createElement(LuGraduationCap),
+    date: "2024",
   },
   {
     title: "Software Engineering Bootcamp Graduate",
