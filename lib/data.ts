@@ -33,12 +33,12 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "MSc in Artificial Intelligence Postgraduate Student",
-    location: "Asia Pacific University of Technology and Innovation",
+    title: "Master of Computer Science Postgraduate Student",
+    location: "Multimedia University",
     description:
-      "Python, R, Artificial Intelligence, Applied Machine Learning, Natural Language Processing, Deep Learning, Pattern Recognition, Computational Intelligence Optimization, Image Processing and Computer Vision, Fuzzy Logic",
+      "Artificial Intelligence, Software Architecture and Design Patterns, Service Oriented Architecture using Web Services, Advanced Data Management, Software Requirements Engineering, Cybersecurity, etc.",
     icon: React.createElement(LuGraduationCap),
-    date: "2024 - 2026",
+    date: "Starting April 2026",
   },
   {
     title: "Software Developer",
@@ -46,7 +46,7 @@ export const experiencesData = [
     description:
       "Fortune 500 US MNC experience in Life Sciences R&D for the groundbreaking One-Click Technology Transfer initiative",
     icon: React.createElement(CgWorkAlt),
-    date: "2024 - Present",
+    date: "2024 - 2025",
   },
   {
     title: "Software Developer",

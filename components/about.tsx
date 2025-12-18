@@ -19,7 +19,7 @@ export default function About() {
       <SectionHeading>About me</SectionHeading>
       <p className="mb-3">
         I am currently a{" "}
-        <span className="font-medium">MSc in Artificial Intelligence</span>{" "}
+        <span className="font-medium">Master of Computer Science</span>{" "}
         postgraduate student. My passion for programming sparked after I
         enrolled in a software engineering bootcamp and learnt{" "}
         <span className="font-medium">full-stack web development</span>.{" "}
@@ -30,8 +30,8 @@ export default function About() {
         <span className="font-medium">
           React.js, Node.js, Express.js, Python, and PostgreSQL
         </span>
-        . I am also familiar with TypeScript, Next.js, and Django. I am always looking to
-        learn new technologies. I am currently looking for a{" "}
+        . I am also familiar with TypeScript, Next.js, and Django. I am always
+        looking to learn new technologies. I am currently looking for a{" "}
         <span className="font-medium">full-time position</span> as a software
         developer.
       </p>

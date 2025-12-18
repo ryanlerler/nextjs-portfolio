@@ -63,8 +63,9 @@ export default function Intro() {
         <span className="font-bold">Software Developer</span> with{" "}
         <span className="font-bold">1 year</span> of experience. I enjoy
         building <span className="italic">sites & apps</span>. My current
-        focuses are <span className="underline">MSc in Artificial Intelligence</span>{" "}
-        and <span className="underline">Modern Web Development</span>.
+        focuses are{" "}
+        <span className="underline">Master of Computer Science</span> and{" "}
+        <span className="underline">Modern Software Development</span>.
       </motion.h1>
 
       <motion.div
